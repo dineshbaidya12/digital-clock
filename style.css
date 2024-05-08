@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #c78e8e; */
+    background: url('background.gif') no-repeat center center/cover;
+}
+
+#time-date{
+    height: 150px;
+    width: 40%;
+    margin: auto;
+    padding-top: 180px;
+    /* background-color: #5ba7da; */
+    display: flex;
+}
+
+#hour, #min, #sec{
+    height: 100%;
+    width: 30%;
+    /* background-color: #949494; */
+    margin: auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    color: aliceblue;
+    text-shadow: 3px 3px 5px black;
+    
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px black;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+#date{
+    height: 85px;
+    width: 40%;
+    margin: auto;
+    /* background-color: #5ba7da; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+#d-m-y{
+    height: 60%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    /* background-color: #a4f783; */
+}
+
+h3{
+    font-size: .9rem;
+    color: aliceblue;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 3px 3px 2px black;
+}
+
+#text{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    /* background-color: #5658eb; */
+}
+
+#th{
+    font-size: .6rem;
+}
+
+
+#btn{
+    color: rgb(0, 0, 0);
+    background-color: #47d5e7;
+    font-family: 'Playfair Display', serif;
+    font-size: .8rem;
+    border: 0px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#btn:hover{
+    transform: scale(1.1);
+    transition: .3s all ease-in;
+    background-color: #47d5e7;
+    box-shadow: 3px 3px black;
+}
+
+#btn:active{
+    background-color: #43e423;
+    box-shadow: 3px 3px black;
+}
+
+#sound{
+    visibility: hidden;
+}

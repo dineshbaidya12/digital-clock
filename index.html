@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="icon/x-image">
+    <link rel="stylesheet" href="responsive.css" media="screen and (max-width : 440px)">
+    <title>Digital Clock by Rishi</title>
+</head>
+<body>
+    <script>
+        let name = prompt("Enter Your Name");
+    </script>
+    <div class="container">
+        <div id="time-date">
+            <div id="hour">
+
+            </div><h1>:</h1> 
+            <div id="min">
+
+            </div><h1>:</h1> 
+            <div id="sec">
+
+            </div>
+        </div>
+        <div id="date">
+            <div id="d-m-y">
+
+            </div>
+            <div id="text">
+                   <h3>(Have a Nice Day <script>if(name){document.write(name)}</script>, May Lord 'Krishna' Bless You)</h3>
+            </div>
+        </div>
+        <button id="btn">Play</button>
+        <audio controls loop id="sound">
+            <source src="Nature.MP3" type="audio/ogg">
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
